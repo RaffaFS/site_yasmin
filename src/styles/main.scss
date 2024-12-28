@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.container{
+    
+    .hero{
+        height: 40vh;
+        background-image: url(../imgs/cardapio-de-hamburgueria-tradicional.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .central_logo{
+            margin: 0 auto;
+            max-width: 1280px;
+            width: 90%;
+            text-align: center;
+            position: relative;
+            top: 24vh;
+
+            img{
+                border-radius: 50%;
+            }
+        }
+    }
+
+    .cardapio_box{
+        .cardapio{
+            position: relative;
+            top: 24vh;
+            
+            .grupo{
+                max-width: 1280px;
+                width: 90%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                margin: 0 auto;
+
+                .item{
+                    max-width: 580px;
+                    width: 100%;
+                    display: flex;
+                    gap: 16px;
+                    margin-bottom: 32px;
+                    background-color: #444;
+                    padding: 8px;
+                    border-radius: 16px;
+                    border: 2px #999 solid;
+                    box-shadow: #444 2px 2px 8px;
+
+                    img{
+                        border-radius: 16px;
+                    }
+
+                    .texto{
+
+                        .title{
+                            font-size: 24px;
+                            margin-bottom: 16px;
+                        }
+
+                        p{
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
