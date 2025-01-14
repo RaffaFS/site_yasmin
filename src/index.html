@@ -11,146 +11,255 @@
         <header>
             <div class="hero">
                 <div class="central_logo">
-                    <img src="https://placehold.co/240x240" alt="placeholder">
+                    <img src="imgs/Logo/logo_background.png" alt="logo com background">
                 </div>
             </div>
         </header>
         <div class="cardapio_box">
             <div class="cardapio">
-                <div class="grupo lanches">
-                    <div class="item lanche lanche1">
-                        <img src="https://placehold.co/180x180" alt="placeholder">
-                        <div class="texto">
-                            <div class="title">Produto</div>
-                            <p>Lorem ipsum dolor sit consectetur saepe tempore cumque nisi quaerat itaque possimus ullam odio blanditiis expedita velit ipsum in. Consectetur!</p>
+                <div class="menu">
+                    <div class="tabBox">
+                        <button class="btn" id="btnSalgados" type="button">Salgados</button>
+                    </div>
+                    <div class="tabBox">
+                        <button class="btn hiddenBorder" id="btnBebidas" type="button">Bebidas</button>
+                    </div>
+                    <div class="tabBox">
+                        <button class="btn hiddenBorder" id="btnDoces" type="button">Doces</button>
+                    </div>
+                    <div class="tabBox">
+                        <button class="btn hiddenBorder" id="btnSobre" type="button">Sobre</button>
+                    </div>
+                </div>
+                <div class="grupo" id="salgados">
+                    <div class="item salgado salgado1">
+                        <img src="imgs/Salgados/smash_burger.jpg" alt="Smash Burger">
+                        <div class="description">
+                            <div class="texto">
+                                <h3 class="title">Smash Burguer</h3>
+                                <p>Pão brioche, hambúrguer, queijo cheddar, maionese da casa.</p>
+                                <h4 class="preco">R$ 17,90</h4>
+                            </div>
+                            <div class="btnBox">
+                                <button class="adicionar" data-item="Smash Burguer">Adicionar</button>
+                            </div>
                         </div>
                     </div>
-                    <div class="item lanche lanche2">
-                        <img src="https://placehold.co/180x180" alt="placeholder">
-                        <div class="texto">
-                            <div class="title">Produto</div>
-                            <p>Lorem ipsum dolor sit consectetur saepe tempore cumque nisi quaerat itaque possimus ullam odio blanditiis expedita velit ipsum in. Consectetur!</p>
+                    <div class="item salgado salgado2">
+                        <img src="imgs/Salgados/bacon_burger.jpg" alt="Bacon Burger">
+                        <div class="description">
+                            <div class="texto">
+                                <h3 class="title">Bacon Burguer</h3>
+                                <p>Pão brioche, hambúrguer, 2 fatias de bacon, queijo cheddar e maionese da casa.</p>
+                                <h4 class="preco">R$ 22,90</h4>
+                            </div>
+                            <div class="btnBox">
+                                <button class="adicionar" data-item="Bacon Burguer">Adicionar</button>
+                            </div>
                         </div>
                     </div>
-                    <div class="item lanche lanche3">
-                        <img src="https://placehold.co/180x180" alt="placeholder">
-                        <div class="texto">
-                            <div class="title">Produto</div>
-                            <p>Lorem ipsum dolor sit consectetur saepe tempore cumque nisi quaerat itaque possimus ullam odio blanditiis expedita velit ipsum in. Consectetur!</p>
+                    <div class="item salgado salgado3">
+                        <img src="imgs/Salgados/crispy_chicken.jpg" alt="Crispy Chicken">
+                        <div class="description">
+                            <div class="texto">
+                                <h3 class="title">Crispy Chicken</h3>
+                                <p>Pão brioche, frango empanado, queijo cheddar, cebola, tomate, alface americano e maionese da casa.</p>
+                                <h4 class="preco">R$ 23,90</h4>
+                            </div>
+                            <div class="btnBox">
+                                <button class="adicionar" data-item="Crispy Chicken">Adicionar</button>
+                            </div>
                         </div>
                     </div>
-                    <div class="item lanche lanche4">
-                        <img src="https://placehold.co/180x180" alt="placeholder">
-                        <div class="texto">
-                            <div class="title">Produto</div>
-                            <p>Lorem ipsum dolor sit consectetur saepe tempore cumque nisi quaerat itaque possimus ullam odio blanditiis expedita velit ipsum in. Consectetur!</p>
+                    <div class="item salgado salgado4">
+                        <img src="imgs/Salgados/duplo_da_casa.jpg" alt="Duplo da Casa">
+                        <div class="description">
+                            <div class="texto">
+                                <h3 class="title">Duplo da Casa</h3>
+                                <p>Pão brioche, 2 hambúrgueres, 2 queijo cheddar , 2 bacon e maionese da casa</p>
+                                <h4 class="preco">R$ 26,90</h4>
+                            </div>
+                            <div class="btnBox">
+                                <button class="adicionar" data-item="Duplo da Casa">Adicionar</button>
+                            </div>
                         </div>
                     </div>
-                    <div class="item lanche lanche5">
-                        <img src="https://placehold.co/180x180" alt="placeholder">
-                        <div class="texto">
-                            <div class="title">Produto</div>
-                            <p>Lorem ipsum dolor sit consectetur saepe tempore cumque nisi quaerat itaque possimus ullam odio blanditiis expedita velit ipsum in. Consectetur!</p>
+                    <div class="item salgado salgado5">
+                        <img src="imgs/Salgados/crepe_salgado.jpg" alt="Crepe de Pizza">
+                        <div class="description">
+                            <div class="texto">
+                                <h3 class="title">Crepe de Pizza</h3>
+                                <h4 class="preco">R$ 7,00</h4>
+                            </div>
+                            <div class="btnBox">
+                                <button class="adicionar" data-item="Crepe de Pizza">Adicionar</button>
+                            </div>
                         </div>
                     </div>
-                    <div class="item lanche lanche6">
-                        <img src="https://placehold.co/180x180" alt="placeholder">
-                        <div class="texto">
-                            <div class="title">Produto</div>
-                            <p>Lorem ipsum dolor sit consectetur saepe tempore cumque nisi quaerat itaque possimus ullam odio blanditiis expedita velit ipsum in. Consectetur!</p>
+                    <div class="item salgado salgado6">
+                        <img src="imgs/Salgados/crepe_salgado.jpg" alt="Crepe de Frango com Catupiry">
+                        <div class="description">
+                            <div class="texto">
+                                <h3 class="title">Crepe de Frango com Catupiry</h3>
+                                <h4 class="preco">R$ 7,00</h4>
+                            </div>
+                            <div class="btnBox">
+                                <button class="adicionar" data-item="Crepe de Frango com Catupiry">Adicionar</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="grupo bebidas">
+                <div class="grupo hidden" id="bebidas">
                     <div class="item bebida bebida1">
-                        <img src="https://placehold.co/180x180" alt="placeholder">
-                        <div class="texto">
-                            <div class="title">Produto</div>
-                            <p>Lorem ipsum dolor sit consectetur saepe tempore cumque nisi quaerat itaque possimus ullam odio blanditiis expedita velit ipsum in. Consectetur!</p>
+                        <img src="imgs/Bebidas/coca_lata.jpg" alt="Coca-Cola latinha">
+                        <div class="description">
+                            <div class="texto">
+                                <h3 class="title">Coca-Cola 350ml</h3>
+                                <h4 class="preco">R$ 4,90</h4>
+                            </div>
+                            <div class="btnBox">
+                                <button class="adicionar" data-item="Coca-Cola 350ml">Adicionar</button>
+                            </div>
                         </div>
                     </div>
                     <div class="item bebida bebida2">
-                        <img src="https://placehold.co/180x180" alt="placeholder">
-                        <div class="texto">
-                            <div class="title">Produto</div>
-                            <p>Lorem ipsum dolor sit consectetur saepe tempore cumque nisi quaerat itaque possimus ullam odio blanditiis expedita velit ipsum in. Consectetur!</p>
+                        <img src="imgs/Bebidas/guarana_lata.jpg" alt="Guaraná latinha">
+                        <div class="description">
+                            <div class="texto">
+                                <h3 class="title">Guaraná 350ml</h3>
+                                <h4 class="preco">R$ 4,90</h4>
+                            </div>
+                            <div class="btnBox">
+                                <button class="adicionar" data-item="Guaraná 350ml">Adicionar</button>
+                            </div>
                         </div>
                     </div>
                     <div class="item bebida bebida3">
-                        <img src="https://placehold.co/180x180" alt="placeholder">
-                        <div class="texto">
-                            <div class="title">Produto</div>
-                            <p>Lorem ipsum dolor sit consectetur saepe tempore cumque nisi quaerat itaque possimus ullam odio blanditiis expedita velit ipsum in. Consectetur!</p>
+                        <img src="imgs/Bebidas/coca_2l.jpg" alt="Coca-Cola 2 litros">
+                        <div class="description">
+                            <div class="texto">
+                                <h3 class="title">Coca-Cola 2L</h3>
+                                <h4 class="preco">R$ 14,00</h4>
+                            </div>
+                            <div class="btnBox">
+                                <button class="adicionar" data-item="Coca-Cola 2L">Adicionar</button>
+                            </div>
                         </div>
                     </div>
                     <div class="item bebida bebida4">
-                        <img src="https://placehold.co/180x180" alt="placeholder">
-                        <div class="texto">
-                            <div class="title">Produto</div>
-                            <p>Lorem ipsum dolor sit consectetur saepe tempore cumque nisi quaerat itaque possimus ullam odio blanditiis expedita velit ipsum in. Consectetur!</p>
-                        </div>
-                    </div>
-                    <div class="item bebida bebida5">
-                        <img src="https://placehold.co/180x180" alt="placeholder">
-                        <div class="texto">
-                            <div class="title">Produto</div>
-                            <p>Lorem ipsum dolor sit consectetur saepe tempore cumque nisi quaerat itaque possimus ullam odio blanditiis expedita velit ipsum in. Consectetur!</p>
-                        </div>
-                    </div>
-                    <div class="item bebida bebida6">
-                        <img src="https://placehold.co/180x180" alt="placeholder">
-                        <div class="texto">
-                            <div class="title">Produto</div>
-                            <p>Lorem ipsum dolor sit consectetur saepe tempore cumque nisi quaerat itaque possimus ullam odio blanditiis expedita velit ipsum in. Consectetur!</p>
+                        <img src="imgs/Bebidas/sukita_2l.jpg" alt="Sukita 2 litros">
+                        <div class="description">
+                            <div class="texto">
+                                <h3 class="title">Sukita 2L</h3>
+                                <h4 class="preco">R$ 13,00</h4>
+                            </div>
+                            <div class="btnBox">
+                                <button class="adicionar" data-item="Sukita 2L">Adicionar</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="grupo doces">
+                <div class="grupo hidden" id="doces">
                     <div class="item doce doce1">
-                        <img src="https://placehold.co/180x180" alt="placeholder">
-                        <div class="texto">
-                            <div class="title">Produto</div>
-                            <p>Lorem ipsum dolor sit consectetur saepe tempore cumque nisi quaerat itaque possimus ullam odio blanditiis expedita velit ipsum in. Consectetur!</p>
+                        <img src="imgs/Doces/geladinho_oreo.jpg" alt="Geladinho gourmet de Oreo">
+                        <div class="description">
+                            <div class="texto">
+                                <h3 class="title">Geladinho Gourmet de Oreo</h3>
+                                <h4 class="preco">R$ 4,00</h4>
+                            </div>
+                            <div class="btnBox">
+                                <button class="adicionar" data-item="Geladinho Gourmet de Oreo">Adicionar</button>
+                            </div>
                         </div>
                     </div>
                     <div class="item doce doce2">
-                        <img src="https://placehold.co/180x180" alt="placeholder">
-                        <div class="texto">
-                            <div class="title">Produto</div>
-                            <p>Lorem ipsum dolor sit consectetur saepe tempore cumque nisi quaerat itaque possimus ullam odio blanditiis expedita velit ipsum in. Consectetur!</p>
+                        <img src="imgs/Doces/geladinho_chocolate_maracuja.jpg" alt="Geladinho gourmet de Chocolate com Maracujá">
+                        <div class="description">
+                            <div class="texto">
+                                <h3 class="title">Geladinho Gourmet de Chocolate com Maracujá</h3>
+                                <h4 class="preco">R$ 4,00</h4>
+                            </div>
+                            <div class="btnBox">
+                                <button class="adicionar" data-item="Geladinho Gourmet de Chocolate com Maracujá">Adicionar</button>
+                            </div>
                         </div>
                     </div>
                     <div class="item doce doce3">
-                        <img src="https://placehold.co/180x180" alt="placeholder">
-                        <div class="texto">
-                            <div class="title">Produto</div>
-                            <p>Lorem ipsum dolor sit consectetur saepe tempore cumque nisi quaerat itaque possimus ullam odio blanditiis expedita velit ipsum in. Consectetur!</p>
+                        <img src="imgs/Doces/geladinho_prestigio.jpg" alt="Geladinho gourmet de Prestígio">
+                        <div class="description">
+                            <div class="texto">
+                                <h3 class="title">Geladinho Gourmet de Prestígio</h3>
+                                <h4 class="preco">R$ 4,00</h4>
+                            </div>
+                            <div class="btnBox">
+                                <button class="adicionar" data-item="Geladinho Gourmet de Prestígio">Adicionar</button>
+                            </div>
                         </div>
                     </div>
                     <div class="item doce doce4">
-                        <img src="https://placehold.co/180x180" alt="placeholder">
-                        <div class="texto">
-                            <div class="title">Produto</div>
-                            <p>Lorem ipsum dolor sit consectetur saepe tempore cumque nisi quaerat itaque possimus ullam odio blanditiis expedita velit ipsum in. Consectetur!</p>
+                        <img src="imgs/Doces/geladinho_bis.jpg" alt="Geladinho gourmet de BIS">
+                        <div class="description">
+                            <div class="texto">
+                                <h3 class="title">Geladinho Gourmet BIS</h3>
+                                <h4 class="preco">R$ 4,00</h4>
+                            </div>
+                            <div class="btnBox">
+                                <button class="adicionar" data-item="Geladinho Gourmet BIS">Adicionar</button>
+                            </div>
                         </div>
                     </div>
                     <div class="item doce doce5">
-                        <img src="https://placehold.co/180x180" alt="placeholder">
-                        <div class="texto">
-                            <div class="title">Produto</div>
-                            <p>Lorem ipsum dolor sit consectetur saepe tempore cumque nisi quaerat itaque possimus ullam odio blanditiis expedita velit ipsum in. Consectetur!</p>
+                        <img src="imgs/Doces/crepe_doce.jpg" alt="Crepe de Prestígio">
+                        <div class="description">
+                            <div class="texto">
+                                <h3 class="title">Crepe de Prestígio</h3>
+                                <h4 class="preco">R$ 7,00</h4>
+                            </div>
+                            <div class="btnBox">
+                                <button class="adicionar" data-item="Crepe de Prestígio">Adicionar</button>
+                            </div>
                         </div>
                     </div>
                     <div class="item doce doce6">
-                        <img src="https://placehold.co/180x180" alt="placeholder">
-                        <div class="texto">
-                            <div class="title">Produto</div>
-                            <p>Lorem ipsum dolor sit consectetur saepe tempore cumque nisi quaerat itaque possimus ullam odio blanditiis expedita velit ipsum in. Consectetur!</p>
+                        <img src="imgs/Doces/crepe_doce.jpg" alt="Crepe de Sonho de Valsa">
+                        <div class="description">
+                            <div class="texto">
+                                <div class="texto">
+                                    <h3 class="title">Crepe de Sonho de Valsa</h3>
+                                    <h4 class="preco">R$ 7,00</h4>
+                                </div>
+                            </div>
+                            <div class="btnBox">
+                                <button class="adicionar" data-item="Crepe de Sonho de Valsa">Adicionar</button>
+                            </div>
                         </div>
+                    </div>
+                </div>
+                <div class="grupo hidden" id="sobre">
+                    <p>Inserimos aqui um texto de apresentação e o que mais quiser falar.</p>
+                </div>
+                <div class="infos" id="infos">
+                    <h2>Confira seu pedido, adicione observações e digite o endereço</h2>
+                    <div class="inputs">
+                        <div class="pedido" id="pedido">
+                            <textarea placeholder="Lista de itens" class="carrinho" id="carrinho"></textarea>
+                            <textarea placeholder="Para cancelar um item, apague-o da lista acima, apenas após adicionar todos os itens desejados. Também adicione aqui observações extras se houver." class="obs" id="obs"></textarea>
+                        </div>
+                        <div class="endereco">
+                            <input id="cidade" type="text" placeholder="Cidade">
+                            <input id="bairro" type="text" placeholder="Bairro">
+                            <input id="rua" type="text" placeholder="Rua">
+                            <input id="numero" type="text" placeholder="Número">
+                            <input id="complemento" type="text" placeholder="Complemento">
+                        </div>
+                    </div>
+                    <div class="btnBox">
+                        <button type="button" class="btnEnviar" id="btnEnviar">Enviar pelo WhatsApp</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </body>
+<script src="scripts/main.js"></script>
 </html>
